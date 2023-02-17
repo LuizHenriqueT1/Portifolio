@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; margin: 0; box-sizing: border-box; }
+body { position: fixed; font-family: Roboto, "Helvetica Neue", sans-serif;
+  background: linear-gradient(90deg, rgba(32,32,32,1) 0%, rgba(177,112,188,1) 0%, rgba(56,143,228,1) 100%, rgba(255,255,255,1) 100%); }
