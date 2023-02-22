@@ -1,12 +1,115 @@
 .container {
-  margin-left: 15vw;
+  margin-left: 10vw;
   margin-right: 10vw;
   margin-top: 100px;
-  position: relative;
+  padding-left: 5vw;
 }
 
-h1 {
+.section-home {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
   color: #F2F2F2;
-  font-family: Share Tech;
-  font-size: 36px
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.myImg {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.text-about {
+  color: #e9e9e9;
+  font-size: 1.3rem;
+  list-style-type: circle;
+  margin-top: 10px;
+}
+
+
+.section-project {
+  margin-top: 40vh;
+}
+
+.section-cards {
+  display: grid;
+  margin-top: 40px;
+	grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  border-radius: 20px;
+  row-gap: 2ch;
+}
+
+.img-card {
+  object-fit: contain;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.card-body {
+  background-color: #e7e3e3;
+  border-radius: 5px;
+}
+
+.card-title, .card-text, .title-carrousel {
+  color: #030303;
+}
+
+.content-icon-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons-card {
+  display: flex;
+  width: 50%;
+  justify-content: end;
+}
+
+.icon-card {
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.carousel-inner {
+  border-radius: 10px;
+}
+
+.section-about {
+  margin-top: 50vh;
+}
+
+.section-contact {
+  margin-top: 54vh;
+  margin-bottom: 10vh;
+}
+
+.text-contact {
+  color: #000000;
+  display: flex;
+  margin-left: 15px;
+  align-items: center;
+  margin: 0px;
+}
+
+.link-contact {
+  display: flex;
+  height: 40px;
+  margin-bottom: 10px;
+  align-items: center;
+  align-content: center;
+}
+
+.span-contact {
+  margin-right: 10px;
 }

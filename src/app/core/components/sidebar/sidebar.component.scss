@@ -1,6 +1,6 @@
 .container-sidebar {
   width: 100px;
-  height: 100vh;
+  height: 100%;
   position: fixed;
   z-index: 100;
   overflow:hidden;
@@ -33,7 +33,7 @@
     padding-left:35px;
     padding-right:15px;
     transition:all .3s ease;
-    margin-left:25px;
+    margin-left:35px;
     margin-right:10px;
     text-decoration: none;
     color:white;

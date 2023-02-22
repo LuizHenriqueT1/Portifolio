@@ -1,3 +1,4 @@
+import { FooterComponent } from './core/components/footer/footer.component';
 import { SidebarComponent } from './core/components/sidebar/sidebar.component';
 import { CoreModule } from './core/core.module';
 import { NgModule } from '@angular/core';
@@ -9,7 +10,8 @@ import { AppComponent } from './app.component';
 @NgModule({
     declarations: [
         AppComponent,
-        SidebarComponent
+        SidebarComponent,
+        FooterComponent
     ],
     providers: [],
     bootstrap: [AppComponent],
