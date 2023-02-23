@@ -111,6 +111,17 @@
   margin-right: 10px;
 }
 
+.ctn-btn-up {
+  position: fixed;
+  margin-left: 87vw;
+  margin-top: 90vh;
+  z-index: 999;
+  button {
+    background: none;
+    border: none;
+  }
+}
+
 
 @media  (max-width: 1600px) {
   .container {
@@ -154,9 +165,9 @@
     padding-left: 15vw;
   }
 }
-@media  (max-width: 594px) {
+@media  (max-width: 599px) {
   .container {
-    padding-left: 17vw;
+    padding: 5vw;
   }
 }
 
