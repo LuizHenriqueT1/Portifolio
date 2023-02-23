@@ -1,3 +1,27 @@
 #contact-icon {
   padding-right: 7px;
 }
+
+#p-skills {
+  margin-top: 45px;
+}
+
+@media  (max-width: 765px) {
+  #p-skills {
+    margin-top: 0;
+  }
+
+  .mb-4 {
+    margin-bottom: 0 !important;
+  }
+
+  #h6-contact {
+    margin-bottom: 10px !important;
+  }
+}
+
+@media  (max-width: 1089px) {
+  .container-sm, .container {
+    max-width: 540px;
+  }
+}

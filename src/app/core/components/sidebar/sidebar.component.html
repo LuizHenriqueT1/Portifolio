@@ -1,67 +1,145 @@
-<nav class="container-sidebar">
-  <ul class="x">
-    <li class="container-svg">
-      <svg
-        class="svg-icon"
-        xmlns="http://www.w3.org/2000/svg"
-        height="40"
-        viewBox="0 96 960 960"
-        width="40"
-      >
-        <defs>
-          <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop id="stop1" offset="0%" stop-color="#f2bbe3" />
-            <stop id="stop2" offset="100%" stop-color="#66FF66" />
-          </linearGradient>
-        </defs>
-        <path
-          fill="url(#gradient)"
-          d="M320 814 80 574l242-242 43 43-199 199 197 197-43 43Zm318 2-43-43 199-199-197-197 43-43 240 240-242 242Z"
-        />
-      </svg>
-      <a href="#Projetos">Projetos</a>
-    </li>
-    <li class="container-svg">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        height="40"
-        viewBox="0 96 960 960"
-        width="40"
-        class="svg-icon"
-      >
-        <defs>
-          <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop id="stop1" offset="0%" stop-color="#f2bbe3" />
-            <stop id="stop2" offset="100%" stop-color="#66FF66" />
-          </linearGradient>
-        </defs>
-        <path
-          fill="url(#gradient)"
-          d="M480 575q-66 0-108-42t-42-108q0-66 42-108t108-42q66 0 108 42t42 108q0 66-42 108t-108 42ZM160 896v-94q0-38 19-65t49-41q67-30 128.5-45T480 636q62 0 123 15.5t127.921 44.694q31.301 14.126 50.19 40.966Q800 764 800 802v94H160Zm60-60h520v-34q0-16-9.5-30.5T707 750q-64-31-117-42.5T480 696q-57 0-111 11.5T252 750q-14 7-23 21.5t-9 30.5v34Zm260-321q39 0 64.5-25.5T570 425q0-39-25.5-64.5T480 335q-39 0-64.5 25.5T390 425q0 39 25.5 64.5T480 515Zm0-90Zm0 411Z"
-        />
-      </svg>
-      <a href="#Sobre">Sobre</a>
-    </li>
-    <li class="container-svg">
-      <svg href="footer"
-        xmlns="http://www.w3.org/2000/svg"
-        height="40"
-        width="40"
-        viewBox="0 96 960 960"
-        class="svg-icon"
-      >
-        <defs>
-          <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop id="stop1" offset="0%" stop-color="#f2bbe3" />
-            <stop id="stop2" offset="100%" stop-color="#66FF66" />
-          </linearGradient>
-        </defs>
-        <path
-          fill="url(#gradient)"
-          d="M140 896q-24 0-42-18t-18-42V316q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H140Zm340-302L140 371v465h680V371L480 594Zm0-60 336-218H145l335 218ZM140 371v-55 520-465Z"
-        />
-      </svg>
-      <a href="#footer">Contato</a>
-    </li>
-  </ul>
-</nav>
+<div *ngIf="isHandsetW$ | async">
+  <nav class="container-sidebar">
+    <ul class="x">
+      <li class="container-svg">
+        <svg
+          class="svg-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          height="36"
+          viewBox="0 96 960 960"
+          width="36"
+        >
+          <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop id="stop1" offset="0%" stop-color="#f2bbe3" />
+              <stop id="stop2" offset="100%" stop-color="#66FF66" />
+            </linearGradient>
+          </defs>
+          <path
+            fill="url(#gradient)"
+            d="M320 814 80 574l242-242 43 43-199 199 197 197-43 43Zm318 2-43-43 199-199-197-197 43-43 240 240-242 242Z"
+          />
+        </svg>
+        <a href="#Projetos">Projetos</a>
+      </li>
+      <li class="container-svg">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="40"
+          viewBox="0 96 960 960"
+          width="40"
+          class="svg-icon"
+        >
+          <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop id="stop1" offset="0%" stop-color="#f2bbe3" />
+              <stop id="stop2" offset="100%" stop-color="#66FF66" />
+            </linearGradient>
+          </defs>
+          <path
+            fill="url(#gradient)"
+            d="M480 575q-66 0-108-42t-42-108q0-66 42-108t108-42q66 0 108 42t42 108q0 66-42 108t-108 42ZM160 896v-94q0-38 19-65t49-41q67-30 128.5-45T480 636q62 0 123 15.5t127.921 44.694q31.301 14.126 50.19 40.966Q800 764 800 802v94H160Zm60-60h520v-34q0-16-9.5-30.5T707 750q-64-31-117-42.5T480 696q-57 0-111 11.5T252 750q-14 7-23 21.5t-9 30.5v34Zm260-321q39 0 64.5-25.5T570 425q0-39-25.5-64.5T480 335q-39 0-64.5 25.5T390 425q0 39 25.5 64.5T480 515Zm0-90Zm0 411Z"
+          />
+        </svg>
+        <a href="#Sobre">Sobre</a>
+      </li>
+      <li class="container-svg">
+        <svg href="footer"
+          xmlns="http://www.w3.org/2000/svg"
+          height="40"
+          width="40"
+          viewBox="0 96 960 960"
+          class="svg-icon"
+        >
+          <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop id="stop1" offset="0%" stop-color="#f2bbe3" />
+              <stop id="stop2" offset="100%" stop-color="#66FF66" />
+            </linearGradient>
+          </defs>
+          <path
+            fill="url(#gradient)"
+            d="M140 896q-24 0-42-18t-18-42V316q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H140Zm340-302L140 371v465h680V371L480 594Zm0-60 336-218H145l335 218ZM140 371v-55 520-465Z"
+          />
+        </svg>
+        <a href="#footer">Contato</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+<div class="container-mobile" *ngIf="isHandset$ | async">
+  <a id="button-menu" (click)="buttonMenu()">
+    <svg height="50" viewBox="0 0 24 24" width="50" xmlns="http://www.w3.org/2000/svg">
+      <path d="m12 2a10 10 0 0 0 -10 10 10 10 0 0 0 10 10 10 10 0 0 0 10-10 10 10 0 0 0 -10-10m-6 5h12v2h-12zm0 4h12v2h-12zm0 4h12v2h-12z"/></svg>
+  </a>
+  <nav *ngIf="buttonClick == true" >
+    <div class="dropdown">
+      <ul class="dropdown-menu">
+        <li class="container-svg-mobile">
+          <svg
+            class="svg-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            height="40"
+            viewBox="0 96 960 960"
+            width="40"
+          >
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop id="stop1" offset="0%" stop-color="#f2bbe3" />
+                <stop id="stop2" offset="100%" stop-color="#66FF66" />
+              </linearGradient>
+            </defs>
+            <path
+              fill="url(#gradient)"
+              d="M320 814 80 574l242-242 43 43-199 199 197 197-43 43Zm318 2-43-43 199-199-197-197 43-43 240 240-242 242Z"
+            />
+          </svg>
+          <a href="#Projetos">Projetos</a>
+        </li>
+        <li class="container-svg-mobile">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="40"
+            viewBox="0 96 960 960"
+            width="40"
+            class="svg-icon"
+          >
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop id="stop1" offset="0%" stop-color="#f2bbe3" />
+                <stop id="stop2" offset="100%" stop-color="#66FF66" />
+              </linearGradient>
+            </defs>
+            <path
+              fill="url(#gradient)"
+              d="M480 575q-66 0-108-42t-42-108q0-66 42-108t108-42q66 0 108 42t42 108q0 66-42 108t-108 42ZM160 896v-94q0-38 19-65t49-41q67-30 128.5-45T480 636q62 0 123 15.5t127.921 44.694q31.301 14.126 50.19 40.966Q800 764 800 802v94H160Zm60-60h520v-34q0-16-9.5-30.5T707 750q-64-31-117-42.5T480 696q-57 0-111 11.5T252 750q-14 7-23 21.5t-9 30.5v34Zm260-321q39 0 64.5-25.5T570 425q0-39-25.5-64.5T480 335q-39 0-64.5 25.5T390 425q0 39 25.5 64.5T480 515Zm0-90Zm0 411Z"
+            />
+          </svg>
+          <a href="#Sobre">Sobre</a>
+        </li>
+        <li class="container-svg-mobile">
+          <svg href="footer"
+            xmlns="http://www.w3.org/2000/svg"
+            height="40"
+            width="40"
+            viewBox="0 96 960 960"
+            class="svg-icon"
+          >
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop id="stop1" offset="0%" stop-color="#f2bbe3" />
+                <stop id="stop2" offset="100%" stop-color="#66FF66" />
+              </linearGradient>
+            </defs>
+            <path
+              fill="url(#gradient)"
+              d="M140 896q-24 0-42-18t-18-42V316q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H140Zm340-302L140 371v465h680V371L480 594Zm0-60 336-218H145l335 218ZM140 371v-55 520-465Z"
+            />
+          </svg>
+          <a href="#footer">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
